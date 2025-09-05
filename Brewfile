@@ -28,7 +28,8 @@ cask "postman"              # API testing tool
 cask "transmit"             # FTP/SFTP client
 cask "tableplus"            # Database GUI (Supports more DB types)
 cask "sequel-ace"           # Lightweight Database GUI
-#cask "microsoft-office"     # Office suite (Word, Excel, etc.)
+cask "microsoft-office"     # Office suite (Word, Excel, etc.)
+cask "microsoft-teams"      # New Teams client (free + work/school)
 cask "slack"                # Team communication
 #cask "notion"               # Notes & project management
 cask "spotify"              # Music streaming
@@ -55,7 +56,6 @@ cask "karabiner-elements"    # Keyboard remapping & custom shortcuts
 # -----------------------
 brew "nmap"                 # Network scanner
 brew "speedtest-cli"        # Test internet speed from CLI
-brew "wget"                 # Download from web
 brew "rsync"                # Backup & sync tool
 brew "aria2"                # Advanced download utility
 
