@@ -16,12 +16,16 @@ brew "fd"               # Faster alternative to 'find'
 brew "ripgrep"          # Super fast search tool
 brew "bat"              # Improved 'cat' with syntax highlighting
 brew "eza"              # Modern 'ls' replacement
+brew "dockutil"         # Manage Dock items
+brew "mas"              # Mac App Store CLI
 
 # -----------------------
 # GUI applications
 # -----------------------
 cask "visual-studio-code"   # Code editor
-cask "sublime-text"	    # Lightweight code editor
+cask "cursor"               # AI code assistant (Cursor)
+cask "kiro"                 # Agentic IDE for spec-driven development
+cask "sublime-text"	        # Lightweight code editor
 cask "docker"               # Containerization platform
 cask "iterm2"               # Enhanced terminal
 cask "postman"              # API testing tool
@@ -29,9 +33,9 @@ cask "transmit"             # FTP/SFTP client
 cask "tableplus"            # Database GUI (Supports more DB types)
 cask "sequel-ace"           # Lightweight Database GUI
 cask "microsoft-office"     # Office suite (Word, Excel, etc.)
-cask "microsoft-teams"      # New Teams client (free + work/school)
+# cask "microsoft-teams"    # New Teams client (free + work/school)
 cask "slack"                # Team communication
-#cask "notion"               # Notes & project management
+#cask "notion"              # Notes & project management
 cask "spotify"              # Music streaming
 cask "google-chrome"        # Browser
 cask "dropbox"              # Cloud storage
@@ -43,13 +47,14 @@ cask "whatsapp"             # Messaging app
 cask "rectangle"            # Window management (keyboard shortcuts for arranging windows)
 cask "alacritty"            # Alternative terminal (GPU accelerated)
 cask "font-fira-code"       # Developer font with ligatures
-cask "zoom"                  # Video calls
-cask "obsidian"              # Markdown note-taking & knowledge management
-#cask "figma"                 # UI/UX design tool
-cask "hazel"                 # Automated file management (rules)
-cask "karabiner-elements"    # Keyboard remapping & custom shortcuts
-#cask "vlc"                   # Media player
-#cask "1password"             # Password manager
+cask "zoom"                 # Video calls
+cask "obsidian"             # Markdown note-taking & knowledge management
+#cask "figma"               # UI/UX design tool
+cask "hazel"                # Automated file management (rules)
+cask "karabiner-elements"   # Keyboard remapping & custom shortcuts
+#cask "vlc"                 # Media player
+#cask "1password"           # Password manager
+cask "tailscale-app"        # Tailscale GUI – VPN based on WireGuard
 
 # -----------------------
 # Network & backup tools
@@ -65,3 +70,8 @@ brew "aria2"                # Advanced download utility
 # WhatsApp can be installed via the App Store using mas
 #mas "WhatsApp", id: 1147396723
 
+# -----------------------
+# Notes
+# -----------------------
+# - 'microsoft-auto-update' is installed automatically with Microsoft apps
+#   (Word, Excel, Teams, etc.) and doesn't need to be listed explicitly.

@@ -47,20 +47,27 @@ for cask in $(grep '^cask' Brewfile | awk '{print $2}' | tr -d '"'); do
 done
 
 # 5️⃣ (Optional) Uncomment to remove apps not in Brewfile
-# brew bundle cleanup --file=./Brewfile --force
+brew bundle cleanup --file=./Brewfile --force
 
 # 6️⃣ Refresh Dock
 echo "🛠 Refreshing Dock layout..."
 dockutil --remove all --no-restart
+
+# System & default apps
 dockutil --add "/System/Applications/System Settings.app" --no-restart
 dockutil --add "/System/Applications/App Store.app" --no-restart
+
+# Developer / work apps
 dockutil --add "/Applications/Google Chrome.app" --no-restart
 dockutil --add "/Applications/iTerm.app" --no-restart
 dockutil --add "/Applications/Sublime Text.app" --no-restart
 dockutil --add "/Applications/Postman.app" --no-restart
 dockutil --add "/Applications/Visual Studio Code.app" --no-restart
-# dockutil --add "/Applications/Slack.app" --no-restart
-dockutil --add "/Applications/Microsoft Teams.app" --no-restart
+dockutil --add "/Applications/Slack.app" --no-restart
+# dockutil --add "/Applications/Microsoft Teams.app" --no-restart
+dockutil --add "/Applications/Cursor.app" --no-restart
+dockutil --add "/Applications/Kiro.app" --no-restart
+dockutil --add "/Applications/Docker.app" --no-restart
 killall Dock
 
 # 7️⃣ Summary
