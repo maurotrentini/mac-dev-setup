@@ -40,6 +40,7 @@ cask "spotify"              # Music streaming
 cask "google-chrome"        # Browser
 cask "dropbox"              # Cloud storage
 cask "whatsapp"             # Messaging app
+cask "chatgpt"              # OpenAI ChatGPT desktop app
 
 # -----------------------
 # Utilities & productivity

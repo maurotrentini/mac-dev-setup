@@ -67,6 +67,7 @@ dockutil --add "/Applications/Slack.app" --no-restart
 # dockutil --add "/Applications/Microsoft Teams.app" --no-restart
 dockutil --add "/Applications/Cursor.app" --no-restart
 dockutil --add "/Applications/Kiro.app" --no-restart
+dockutil --add "/Applications/ChatGPT.app" --no-restart
 dockutil --add "/Applications/Docker.app" --no-restart
 dockutil --add "/Applications/Tailscale.app" --no-restart
 killall Dock
