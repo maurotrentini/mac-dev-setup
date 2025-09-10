@@ -38,6 +38,7 @@ cask "slack"                # Team communication
 #cask "notion"              # Notes & project management
 cask "spotify"              # Music streaming
 cask "google-chrome"        # Browser
+cask "arc"                  # Arc browser by The Browser Company
 cask "dropbox"              # Cloud storage
 cask "whatsapp"             # Messaging app
 cask "chatgpt"              # OpenAI ChatGPT desktop app
@@ -49,6 +50,7 @@ cask "rectangle"            # Window management (keyboard shortcuts for arrangin
 cask "alacritty"            # Alternative terminal (GPU accelerated)
 cask "font-fira-code"       # Developer font with ligatures
 cask "zoom"                 # Video calls
+cask "teamviewer"           # Remote desktop access
 cask "obsidian"             # Markdown note-taking & knowledge management
 #cask "figma"               # UI/UX design tool
 cask "hazel"                # Automated file management (rules)

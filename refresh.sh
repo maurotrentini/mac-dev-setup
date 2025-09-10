@@ -59,9 +59,11 @@ dockutil --add "/System/Applications/App Store.app" --no-restart
 
 # Developer / work apps
 dockutil --add "/Applications/Google Chrome.app" --no-restart
+dockutil --add "/Applications/Arc.app" --no-restart
 dockutil --add "/Applications/iTerm.app" --no-restart
 dockutil --add "/Applications/Sublime Text.app" --no-restart
 dockutil --add "/Applications/Postman.app" --no-restart
+dockutil --add "/Applications/Sequel Ace.app" --no-restart
 dockutil --add "/Applications/Visual Studio Code.app" --no-restart
 dockutil --add "/Applications/Slack.app" --no-restart
 # dockutil --add "/Applications/Microsoft Teams.app" --no-restart
