@@ -12,6 +12,7 @@ brew "tree"             # Directory tree visualization
 brew "jq"               # JSON processing in CLI
 brew "tmux"             # Terminal multiplexer
 brew "gh"               # GitHub CLI
+brew "codex"            # OpenAI Codex CLI
 brew "fd"               # Faster alternative to 'find'
 brew "ripgrep"          # Super fast search tool
 brew "bat"              # Improved 'cat' with syntax highlighting
