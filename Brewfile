@@ -6,6 +6,7 @@
 brew "git"              # Version control
 brew "node"             # JavaScript runtime
 brew "python@3.12"      # Python language
+brew "php"              # PHP latest (for future upgrade)
 brew "htop"             # Interactive process viewer
 brew "wget"             # Download files from the web
 brew "tree"             # Directory tree visualization
