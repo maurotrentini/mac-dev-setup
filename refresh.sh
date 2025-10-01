@@ -55,6 +55,7 @@ dockutil --remove all --no-restart
 
 # System & default apps
 dockutil --add "/System/Applications/System Settings.app" --no-restart
+dockutil --add "/System/Applications/Passwords.app" --no-restart
 dockutil --add "/System/Applications/App Store.app" --no-restart
 
 # Developer / work apps
@@ -70,6 +71,7 @@ dockutil --add "/Applications/Slack.app" --no-restart
 dockutil --add "/Applications/Cursor.app" --no-restart
 dockutil --add "/Applications/Kiro.app" --no-restart
 dockutil --add "/Applications/ChatGPT.app" --no-restart
+dockutil --add "/Applications/WhatsApp.app" --no-restart
 dockutil --add "/Applications/Docker.app" --no-restart
 dockutil --add "/Applications/Tailscale.app" --no-restart
 killall Dock

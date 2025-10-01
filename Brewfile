@@ -29,6 +29,7 @@ cask "cursor"               # AI code assistant (Cursor)
 cask "kiro"                 # Agentic IDE for spec-driven development
 cask "sublime-text"	        # Lightweight code editor
 cask "docker"               # Containerization platform
+cask "virtualbox"           # Virtual machine platform
 cask "iterm2"               # Enhanced terminal
 cask "postman"              # API testing tool
 cask "transmit"             # FTP/SFTP client
