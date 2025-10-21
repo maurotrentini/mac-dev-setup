@@ -36,6 +36,7 @@ cask "transmit"             # FTP/SFTP client
 cask "tableplus"            # Database GUI (Supports more DB types)
 cask "sequel-ace"           # Lightweight Database GUI
 cask "microsoft-office"     # Office suite (Word, Excel, etc.)
+cask "libreoffice"          # Free office suite alternative
 # cask "microsoft-teams"    # New Teams client (free + work/school)
 cask "slack"                # Team communication
 #cask "notion"              # Notes & project management
@@ -58,6 +59,7 @@ cask "obsidian"             # Markdown note-taking & knowledge management
 #cask "figma"               # UI/UX design tool
 cask "hazel"                # Automated file management (rules)
 cask "karabiner-elements"   # Keyboard remapping & custom shortcuts
+#cask "raycast"             # Powerful Spotlight alternative with extensions
 #cask "vlc"                 # Media player
 #cask "1password"           # Password manager
 cask "tailscale-app"        # Tailscale GUI – VPN based on WireGuard
