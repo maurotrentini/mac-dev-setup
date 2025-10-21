@@ -4,6 +4,7 @@
 # Command-line tools
 # -----------------------
 brew "git"              # Version control
+brew "git-town"         # Git workflow automation tool
 brew "node"             # JavaScript runtime
 brew "python@3.12"      # Python language
 brew "php"              # PHP latest (for future upgrade)
