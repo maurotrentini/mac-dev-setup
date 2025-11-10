@@ -21,6 +21,7 @@ brew "bat"              # Improved 'cat' with syntax highlighting
 brew "eza"              # Modern 'ls' replacement
 brew "dockutil"         # Manage Dock items
 brew "mas"              # Mac App Store CLI
+brew "awscli"           # AWS Command Line Interface
 
 # -----------------------
 # GUI applications
