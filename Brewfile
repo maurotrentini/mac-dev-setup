@@ -50,6 +50,7 @@ cask "dropbox"              # Cloud storage
 cask "whatsapp"             # Messaging app
 cask "chatgpt"              # OpenAI ChatGPT desktop app
 cask "chatgpt-atlas"        # ChatGPT Atlas browser
+#cask "comet"               # Comet AI browser (not yet available in Homebrew - install manually)
 
 # -----------------------
 # Utilities & productivity
@@ -67,6 +68,7 @@ cask "karabiner-elements"   # Keyboard remapping & custom shortcuts
 #cask "vlc"                 # Media player
 #cask "1password"           # Password manager
 cask "tailscale-app"        # Tailscale GUI – VPN based on WireGuard
+#cask "openemu"             # Retro game emulator
 
 # -----------------------
 # Network & backup tools
