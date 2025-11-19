@@ -30,6 +30,7 @@ cask "visual-studio-code"   # Code editor
 cask "cursor"               # AI code assistant (Cursor)
 cask "kiro"                 # Agentic IDE for spec-driven development
 cask "sublime-text"	        # Lightweight code editor
+cask "antigravity"          # Google Antigravity IDE
 cask "docker"               # Containerization platform
 cask "virtualbox"           # Virtual machine platform
 cask "iterm2"               # Enhanced terminal
@@ -48,6 +49,7 @@ cask "arc"                  # Arc browser by The Browser Company
 cask "dropbox"              # Cloud storage
 cask "whatsapp"             # Messaging app
 cask "chatgpt"              # OpenAI ChatGPT desktop app
+cask "chatgpt-atlas"        # ChatGPT Atlas browser
 
 # -----------------------
 # Utilities & productivity
