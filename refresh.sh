@@ -49,7 +49,13 @@ done
 # 5️⃣ (Optional) Uncomment to remove apps not in Brewfile
 brew bundle cleanup --file=./Brewfile --force
 
-# 6️⃣ Refresh Dock
+# 6️⃣ Ensure dockutil is installed
+if ! command -v dockutil &>/dev/null; then
+    echo "Installing dockutil..."
+    brew install dockutil
+fi
+
+# 7️⃣ Refresh Dock
 echo "🛠 Refreshing Dock layout..."
 dockutil --remove all --no-restart
 
@@ -80,7 +86,7 @@ dockutil --add "/System/Applications/Passwords.app" --no-restart
 dockutil --add "/System/Applications/System Settings.app" --no-restart
 killall Dock
 
-# 7️⃣ Summary
+# 8️⃣ Summary
 echo ""
 echo "📊 Refresh Summary:"
 echo "✅ Installed: ${INSTALLED[*]:-None}"
