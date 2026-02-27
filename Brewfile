@@ -20,6 +20,7 @@ cask "google-chrome"        # Browser
 # cask "arc"                  # Arc browser by The Browser Company
 cask "dropbox"              # Cloud storage
 cask "whatsapp"             # Messaging app
+cask "telegram"             # Telegram messaging app
 cask "chatgpt"              # OpenAI ChatGPT desktop app
 # cask "chatgpt-atlas"        # ChatGPT Atlas browser
 

@@ -52,15 +52,31 @@ fi
 echo "🛠 Configuring Dock..."
 dockutil --remove all --no-restart
 
-# System & default apps
-dockutil --add "/System/Applications/System Settings.app" --no-restart
-dockutil --add "/System/Applications/Passwords.app" --no-restart
-dockutil --add "/System/Applications/App Store.app" --no-restart
+# Apple communication & device apps
+dockutil --add "/System/Applications/iPhone Mirroring.app" --no-restart
+dockutil --add "/System/Applications/Messages.app" --no-restart
+dockutil --add "/System/Applications/FaceTime.app" --no-restart
+dockutil --add "/System/Applications/Phone.app" --no-restart
 
-# Developer / work apps
+# Third-party messaging
+dockutil --add "/Applications/WhatsApp.app" --no-restart
+dockutil --add "/Applications/Telegram.app" --no-restart
+
+# Productivity & personal info
+dockutil --add "/System/Applications/Calendar.app" --no-restart
+dockutil --add "/System/Applications/Contacts.app" --no-restart
+dockutil --add "/System/Applications/Reminders.app" --no-restart
+dockutil --add "/System/Applications/Notes.app" --no-restart
+dockutil --add "/System/Applications/Photos.app" --no-restart
+
+# Browser & AI
 dockutil --add "/Applications/Google Chrome.app" --no-restart
 dockutil --add "/Applications/ChatGPT.app" --no-restart
-dockutil --add "/Applications/WhatsApp.app" --no-restart
+
+# System
+dockutil --add "/System/Applications/App Store.app" --no-restart
+dockutil --add "/System/Applications/Passwords.app" --no-restart
+dockutil --add "/System/Applications/System Settings.app" --no-restart
 killall Dock
 
 # 7️⃣ Summary
